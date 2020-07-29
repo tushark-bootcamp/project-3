@@ -1,0 +1,27 @@
+{
+    "listModules": [{
+        "id": "1",
+        "parentid": "1",
+        "text": "Loyalty Works",
+        "value": "lylty-works",
+        "image": "./../assets/images/folder.jpg"
+    }, {
+        "id": "2",
+        "parentid": "1",
+        "text": "Modules",
+        "value": "modules",
+        "image": "./../assets/images/folder.jpg"
+    }, {
+        "id": "3",
+        "parentid": "2",
+        "text": "admin",
+        "value": "admin",
+        "image": "./../assets/images/lylty.png"
+    }, {
+        "id": "4",
+        "parentid": "2",
+        "text": "campaigns",
+        "value": "campaigns",
+        "image": "./../assets/images/lylty.png"
+    }]
+}

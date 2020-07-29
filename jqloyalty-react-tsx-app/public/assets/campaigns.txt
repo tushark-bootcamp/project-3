@@ -1,0 +1,83 @@
+{
+    "title": "Campaigns",
+    "listCampaigns": [{
+        "campaignCode": "ABC-435465EJS",
+        "name": "Keratin treatment special offer for online booking",
+        "description": "Book online and receive 10% off on Keratin treatment for a limited time",
+        "startDate": "2020-07-01 00:00:00",
+        "endDate": "2020-07-31 00:00:00",
+        "offer": {
+            "strategy": "Self-serve booking",
+            "category": "event-transaction",
+            "type": "event-product-discount",
+            "transactionType": "single",
+            "transactionSpan": "na",
+            "transactionLimit": 0,
+            "hurdles": [{
+                "key": 1,
+                "type": "event",
+                "event": {
+                    "name": "transaction",
+                    "type": "booking-method"
+                },
+                "value": "online"
+            }, {
+                "key": 2,
+                "type": "product",
+                "product": {
+                    "sku": "KRTR-01",
+                    "unit": "quantity"
+                },
+                "value": "1"
+            }],
+            "rewards": [{
+                "key": 1,
+                "type": "%discount",
+                "value": "10"
+            }],
+            "redemptionLimit": "1",
+            "vendorId": "",
+            "vendorFundRatio": 0
+        }
+
+    }, {
+        "campaignCode": "ABC-555465EJS",
+        "name": "Cheaper Tuesdays.",
+        "description": "Book an appointment on any Tuesday between 2 PM and 4 PM this July and receive a 15 % discount on hair colour specially just for you",
+        "startDate": "2020-07-01 00:00:00",
+        "endDate": "2020-07-31 00:00:00",
+        "offer": {
+            "strategy": "Self-serve booking",
+            "category": "event-transaction",
+            "type": "event-product-discount",
+            "transactionType": "single",
+            "transactionSpan": "na",
+            "transactionLimit": 0,
+            "hurdles": [{
+                "key": 1,
+                "type": "event",
+                "event": {
+                    "name": "transaction",
+                    "type": "transaction-time"
+                },
+                "value": "14.00:16.00"
+            }, {
+                "key": 2,
+                "type": "product",
+                "product": {
+                    "sku": "KRTR-01",
+                    "unit": "quantity"
+                },
+                "value": "1"
+            }],
+            "rewards": [{
+                "key": 1,
+                "type": "%discount",
+                "value": "15"
+            }],
+            "redemptionLimit": "1",
+            "vendorId": "",
+            "vendorFundRatio": 0
+        }
+    }]
+}
